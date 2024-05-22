@@ -44,6 +44,7 @@ radius = 6.08276
 
 [node name="Hero" type="CharacterBody2D"]
 z_index = 5
+collision_layer = 2
 script = ExtResource("1_pf10w")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
